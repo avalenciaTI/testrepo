@@ -1,0 +1,20 @@
+{
+	"params": [
+		{
+			"name": "Browser",
+			"type": "browser",
+			"defaultValue": "Selenium - Chrome"
+		},
+		{
+			"name": "New Parameter",
+			"type": "string",
+			"defaultValue": "Test"
+		}
+	],
+	"configs": [
+		{
+			"id": "4ec9f447-5926-4a37-9015-edc643d8cdcc",
+			"name": "Default"
+		}
+	]
+}

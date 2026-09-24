@@ -1,0 +1,4 @@
+<log type="Session" name="XXDARKANDRESXX:XXDARKANDRESXX" at="2026-09-23 14:43:29.928" />
+<log type="Test" name="Web" status="Info" _testPath="C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\Web\Test.sstest"  at="2026-09-23 14:43:30.410"><data type="text">Executing Script: C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\Web\Test.sstest</data>
+<data type="text">Entry Point: Test</data>
+</log>

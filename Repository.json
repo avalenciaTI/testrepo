@@ -1,0 +1,224 @@
+{
+  "files": [
+    {
+      "id": 58,
+      "path": "Repository.json",
+      "version": 5.0
+    },
+    {
+      "id": 59,
+      "path": "Common.js",
+      "version": 1.0
+    },
+    {
+      "id": 60,
+      "path": "Config.json",
+      "version": 1.0
+    },
+    {
+      "id": 61,
+      "path": "Framework.sstest",
+      "version": 1.0
+    },
+    {
+      "id": 62,
+      "path": "Main.js",
+      "version": 1.0
+    },
+    {
+      "id": 63,
+      "path": "AI\\screenshot.base64",
+      "version": 1.0
+    },
+    {
+      "id": 64,
+      "path": "Configuration\\Environments\\environment.txt",
+      "version": 1.0
+    },
+    {
+      "id": 65,
+      "path": "Configuration\\Environments\\EnvLoader.js",
+      "version": 1.0
+    },
+    {
+      "id": 66,
+      "path": "Configuration\\Environments\\QA.json",
+      "version": 1.0
+    },
+    {
+      "id": 67,
+      "path": "Data\\Ambientes.xlsx",
+      "version": 1.0
+    },
+    {
+      "id": 68,
+      "path": "Data\\Data.xlsx",
+      "version": 1.0
+    },
+    {
+      "id": 69,
+      "path": "Data\\DataAPI.xlsx",
+      "version": 1.0
+    },
+    {
+      "id": 70,
+      "path": "Data\\DataWeb.xlsx",
+      "version": 1.0
+    },
+    {
+      "id": 71,
+      "path": "Images\\Checkpoint0001.png",
+      "version": 1.0
+    },
+    {
+      "id": 72,
+      "path": "Lib\\LibFramework.jslib",
+      "version": 1.0
+    },
+    {
+      "id": 73,
+      "path": "Lib\\LibFramework.jslib.bak",
+      "version": 1.0
+    },
+    {
+      "id": 74,
+      "path": "Lib\\Libuser.jslib",
+      "version": 1.0
+    },
+    {
+      "id": 75,
+      "path": "Lib\\LibFramework\\Framework.json",
+      "version": 2.0
+    },
+    {
+      "id": 76,
+      "path": "Lib\\LibFramework\\LibFramework.js",
+      "version": 1.0
+    },
+    {
+      "id": 77,
+      "path": "Lib\\LibFramework\\LoginPage.metadata",
+      "version": 1.0
+    },
+    {
+      "id": 78,
+      "path": "Lib\\LibFramework\\LoginPage16.png",
+      "version": 1.0
+    },
+    {
+      "id": 79,
+      "path": "Lib\\LibFramework\\LoginPage32.png",
+      "version": 1.0
+    },
+    {
+      "id": 80,
+      "path": "Lib\\LibFramework\\NavBar.metadata",
+      "version": 1.0
+    },
+    {
+      "id": 81,
+      "path": "Lib\\LibFramework\\NavBar16.png",
+      "version": 1.0
+    },
+    {
+      "id": 82,
+      "path": "Lib\\LibFramework\\NavBar32.png",
+      "version": 1.0
+    },
+    {
+      "id": 83,
+      "path": "Lib\\LibFramework\\Parameters.json",
+      "version": 1.0
+    },
+    {
+      "id": 84,
+      "path": "Lib\\LibFramework\\Spira.json",
+      "version": 2.0
+    },
+    {
+      "id": 85,
+      "path": "Lib\\Libuser\\Libuser.js",
+      "version": 1.0
+    },
+    {
+      "id": 86,
+      "path": "PageObjects\\LoginPage\\LoginPage.js",
+      "version": 1.0
+    },
+    {
+      "id": 87,
+      "path": "PageObjects\\LoginPage\\Objects.js",
+      "version": 1.0
+    },
+    {
+      "id": 88,
+      "path": "PageObjects\\LoginPage\\Test.sstest",
+      "version": 1.0
+    },
+    {
+      "id": 89,
+      "path": "PageObjects\\NavBar\\NavBar.js",
+      "version": 1.0
+    },
+    {
+      "id": 90,
+      "path": "PageObjects\\NavBar\\Objects.js",
+      "version": 1.0
+    },
+    {
+      "id": 91,
+      "path": "PageObjects\\NavBar\\Test.sstest",
+      "version": 1.0
+    },
+    {
+      "id": 92,
+      "path": "TestCases\\API\\Main.js",
+      "version": 1.0
+    },
+    {
+      "id": 93,
+      "path": "TestCases\\API\\Objects.js",
+      "version": 1.0
+    },
+    {
+      "id": 94,
+      "path": "TestCases\\API\\Test.sstest",
+      "version": 1.0
+    },
+    {
+      "id": 95,
+      "path": "TestCases\\API\\User.js",
+      "version": 1.0
+    },
+    {
+      "id": 96,
+      "path": "TestCases\\Web\\Main.js",
+      "version": 1.0
+    },
+    {
+      "id": 97,
+      "path": "TestCases\\Web\\Main.rvl.xlsx",
+      "version": 1.0
+    },
+    {
+      "id": 98,
+      "path": "TestCases\\Web\\Objects.js",
+      "version": 1.0
+    },
+    {
+      "id": 99,
+      "path": "TestCases\\Web\\Objects.metadata",
+      "version": 1.0
+    },
+    {
+      "id": 100,
+      "path": "TestCases\\Web\\Test.sstest",
+      "version": 1.0
+    },
+    {
+      "id": 101,
+      "path": "TestCases\\Web\\User.js",
+      "version": 1.0
+    }
+  ]
+}

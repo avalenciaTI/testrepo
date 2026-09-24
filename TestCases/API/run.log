@@ -1,0 +1,43 @@
+﻿
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API>If /I "AMD64" NEQ "x86" (
+C:\WINDOWS\SysWoW64\cmd.exe /C play.cmd  
+ goto :eof 
+) 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API>If /I "x86" NEQ "x86" (
+C:\WINDOWS\SysWoW64\cmd.exe /C play.cmd  
+ goto :eof 
+) 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API>SET SMARTESTUDIO_TEST_FOLDER=C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\ 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API>if not defined WSCRIPTENGINE set WSCRIPTENGINE="C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\InstrumentJS\node.exe" "C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\InstrumentJS\NodeWScript.js" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API>pushd "..\..\." 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>SET SMARTESTUDIO_TEST_FOLDERS=C:\\Users\\XXDARKANDRESXX\\Documents\\My Rapise Tests\\Televisa\\TestCases\\API\\ 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>"C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\play.bat" "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\Test.sstest" "-eval:g_modifierKeys='None'" "-eval:g_verboseLevel=1" "-config:C:\\Users\\XXDARKANDRESXX\\Documents\\My Rapise Tests\\Televisa\\TestCases\\API\\..\..\.\LastConfig.json.user" "-eval:g_rapiseAiDashboardPort=51927" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>If /I "x86" NEQ "x86" (
+C:\WINDOWS\SysWoW64\cmd.exe /C "C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\play.bat" "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\Test.sstest" "-eval:g_modifierKeys='None'" "-eval:g_verboseLevel=1" "-config:C:\\Users\\XXDARKANDRESXX\\Documents\\My Rapise Tests\\Televisa\\TestCases\\API\\..\..\.\LastConfig.json.user" "-eval:g_rapiseAiDashboardPort=51927"  
+ goto :eof 
+) 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>set SES_ENGINE_HOME=C:\Program Files (x86)\Inflectra\Rapise\Engine\ 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>"C:\Program Files (x86)\Inflectra\Rapise\Engine\..\Bin\MinME.exe"
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>set NODE_PATH=C:\ProgramData\Inflectra\Rapise\npm\node_modules 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>if not defined WSCRIPTENGINE set WSCRIPTENGINE="C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\node.exe" "C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>IF "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\" == "" GOTO NOFOLDER 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>del "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\out.log" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>del "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\err.log" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>"C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\InstrumentJS\node.exe" "C:\Program Files (x86)\Inflectra\Rapise\Bin\..\Engine\InstrumentJS\NodeWScript.js"  "C:\Program Files (x86)\Inflectra\Rapise\Engine\Player.js" "C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\Test.sstest" "-eval:g_modifierKeys='None'" "-eval:g_verboseLevel=1" "-config:C:\\Users\\XXDARKANDRESXX\\Documents\\My Rapise Tests\\Televisa\\TestCases\\API\\..\..\.\LastConfig.json.user" "-eval:g_rapiseAiDashboardPort=51927"  1>"C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\out.log" 2>"C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\TestCases\API\err.log" 
+
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa>GOTO END 

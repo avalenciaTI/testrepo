@@ -1,0 +1,17 @@
+C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\Common.js:10
+		if (!g_env || !g_env.baseUrl) {
+		^
+
+ReferenceError: g_env is not defined
+    at Array.<anonymous> (C:\Users\XXDARKANDRESXX\Documents\My Rapise Tests\Televisa\Common.js:10:3)
+    at SeSTestInit (C:\Program Files (x86)\Inflectra\Rapise\Engine\SeSConfig.js:511:32)
+    at C:\Program Files (x86)\Inflectra\Rapise\Engine\Player.js:357:2
+    at Script.runInThisContext (node:vm:123:12)
+    at global.SeSIncludeFile (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:123:10)
+    at Object.<anonymous> (C:\Program Files (x86)\Inflectra\Rapise\Engine\InstrumentJS\NodeWScript.js:453:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+
+Node.js v18.18.0

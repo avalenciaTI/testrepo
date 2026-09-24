@@ -1,0 +1,84 @@
+{
+	"pageobjects": {},
+	"testcases": [
+		{
+			"name": "Web",
+			"alias": "Web",
+			"vpath": "",
+			"sstest": "%WORKDIR%TestCases\\Web\\Test.sstest",
+			"tags": "testcase",
+			"id": "6PEIBRTK",
+			"rep": "%WORKDIR%TestCases\\Web\\Objects.js",
+			"user": "%WORKDIR%TestCases\\Web\\User.js",
+			"libraries": [
+				"Selenium"
+			],
+			"testParams": {
+				"Browser": {
+					"Name": "Browser",
+					"DefaultValue": "Selenium - Chrome",
+					"Variable": "g_browserLibrary",
+					"Ask": true,
+					"Output": false,
+					"Options": ""
+				},
+				"Record Title": {
+					"Name": "Record Title",
+					"DefaultValue": "regex:.*",
+					"Variable": "g_rWnd",
+					"Ask": false,
+					"Output": false,
+					"Options": ""
+				},
+				"Detect Web Plugins": {
+					"Name": "Detect Web Plugins",
+					"DefaultValue": "false",
+					"Variable": "g_webPluginsAutoDetect",
+					"Ask": false,
+					"Output": false,
+					"Options": ""
+				},
+				"RVL Script": {
+					"Name": "RVL Script",
+					"DefaultValue": "Main.rvl.xlsx",
+					"Variable": "g_rvlScriptPath",
+					"Ask": false,
+					"Output": false,
+					"Options": ""
+				}
+			},
+			"hash": "B89A80C8620E030605DB89EC3AA50E7F403B0D1C1FD4FDAF650D0EBCB2DEA518E64ECF2074AF8390245C334763481B8695F5A76DDE91CE3AFCA7A351BB0BE41E8F3E4CB33E0912249DBE9E5E8E8022AB"
+		},
+		{
+			"name": "API",
+			"alias": "API",
+			"vpath": "",
+			"sstest": "%WORKDIR%TestCases\\API\\Test.sstest",
+			"tags": "testcase",
+			"id": "RXY9NUZE",
+			"rep": "%WORKDIR%TestCases\\API\\Objects.js",
+			"user": "%WORKDIR%TestCases\\API\\User.js",
+			"libraries": [],
+			"testParams": {},
+			"hash": "FC82246EA4EBEAABD5715E8724BA8A191FECE450AD76DC612A99B8E915AD5F8F750BB01ACC14A57CB8C733A73574113DC8CE2F7A978F7057D16EE757823EC0A7"
+		}
+	],
+	"shared": [
+		{
+			"js": "%WORKDIR%Common.js"
+		}
+	],
+	"testsets": [
+		{
+			"id": "6a05feb7",
+			"name": "Default",
+			"description": "Default test set",
+			"configId": "4ec9f447-5926-4a37-9015-edc643d8cdcc",
+			"testcases": [
+				{
+					"id": "6PEIBRTK"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Test xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" v="19" t="">
+  <Tags>pageobject</Tags>
+  <ScriptPath>NavBar.js</ScriptPath>
+  <ObjectsPath>Objects.js</ObjectsPath>
+  <ReportPath>NavBar.trp</ReportPath>
+  <CommandInterval>100</CommandInterval>
+  <IterationsCount>1</IterationsCount>
+  <StopOnError>true</StopOnError>
+  <CacheObjects>false</CacheObjects>
+  <ObjectLookupAttempts>30</ObjectLookupAttempts>
+  <ObjectLookupAttemptInterval>300</ObjectLookupAttemptInterval>
+  <ShowReport>true</ShowReport>
+  <JSEngineType>Default</JSEngineType>
+  <BeautifySavedObjects>true</BeautifySavedObjects>
+  <SavePlaybackScreenshotsInTestReport>true</SavePlaybackScreenshotsInTestReport>
+  <SaveScreenshotObjectOnly>true</SaveScreenshotObjectOnly>
+  <SaveScreenshotsCaptureCursor>true</SaveScreenshotsCaptureCursor>
+  <SaveScreenshotOnFailure>true</SaveScreenshotOnFailure>
+  <CommandLine />
+  <EntryPoint>Test</EntryPoint>
+  <WorkDir>..\..\.</WorkDir>
+  <TestFiles>
+    <Name>Test</Name>
+    <IsFilterGroup>false</IsFilterGroup>
+    <FilterWildcard>*.*</FilterWildcard>
+    <FilterPath />
+    <Groups />
+    <TestFiles>
+      <TestFile>
+        <Path>NavBar.js</Path>
+        <Tags>pageobject</Tags>
+      </TestFile>
+      <TestFile>
+        <Path>Objects.js</Path>
+      </TestFile>
+    </TestFiles>
+  </TestFiles>
+  <TestParams />
+  <Methodology>Basic</Methodology>
+</Test>

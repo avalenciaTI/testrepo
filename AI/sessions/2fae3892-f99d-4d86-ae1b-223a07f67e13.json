@@ -1,0 +1,45 @@
+{
+  "flow_config": {
+    "name": "AI Code Assistant",
+    "description": "Chat with an AI model to generate JavaScript code",
+    "sender": {
+      "type": "user",
+      "config": {
+        "name": "rapise",
+        "system_message": "You are a helpful assistant.",
+        "llm_config": false
+      }
+    },
+    "receiver": {
+      "type": "assistant",
+      "config": {
+        "name": "ai_code_assistant",
+        "description": "Chat with an AI model to generate JavaScript code",
+        "llm_config": {
+          "temperature": 0.1,
+          "max_tokens": 0,
+          "config_list": [
+            {
+              "model": "default",
+              "description": "Default model configured in Options."
+            }
+          ]
+        },
+        "system_message": "You are an expert JavaScript code assistant. Your primary goal is to generate clean, modern, and efficient JavaScript code that is easy to understand and maintain.\n- **Prioritize Clarity and Readability:** This is your most important principle. The code you write must be exceptionally clear.\n    - **Use Standard ES6+:** Employ common modern features like `const`, `let`. Always avoid `var`. Try to avoid arrow functions, and `async/await`.\n    - **Readability Over Brevity:** Do NOT sacrifice clarity for the sake of writing a shorter one-liner or using a rare, obscure language feature. If a multi-line, more descriptive version is easier to follow, prefer it. Your code should be easily understood by a developer with moderate JavaScript experience.\n- **Provide Explanations:** After the code block, briefly explain the logic, any important choices you made (especially regarding clarity vs. a more compact alternative), and how to use the code.\n- **Format Correctly:** Always wrap your code in a Markdown code block with the language specified (e.g., ```javascript). There should be just one code block in the response.\n- **Be Safe:** Prioritize security. Sanitize inputs and avoid common vulnerabilities like XSS. Warn the user about potential security risks.\n- **Handle Ambiguity:** If the user's request is unclear, make a reasonable, simple assumption and state it clearly.\n- **Be Concise:** Do not generate usage examples."
+      },
+      "timestamp": "2025-07-31T10:10:41.569Z",
+      "local": false,
+      "id": "374cccd3-271b-4a32-b120-8402c29a9396",
+      "path": "C:\\ProgramData\\Inflectra\\Rapise\\AI\\agents\\374cccd3-271b-4a32-b120-8402c29a9396.json"
+    },
+    "type": "twoagents",
+    "timestamp": "2025-07-31T10:10:53.311Z",
+    "local": false,
+    "post_processing_method": "js",
+    "id": "ce2e19fd-62c4-4586-b829-5036773bb87f",
+    "path": "C:\\ProgramData\\Inflectra\\Rapise\\AI\\workflows\\ce2e19fd-62c4-4586-b829-5036773bb87f.json"
+  },
+  "name": "AI Code Assistant",
+  "id": "2fae3892-f99d-4d86-ae1b-223a07f67e13",
+  "timestamp": "2026-09-23T01:14:47.619Z"
+}

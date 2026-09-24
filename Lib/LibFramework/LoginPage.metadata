@@ -1,0 +1,39 @@
+{
+	"LoginPage": {
+		"window_name": "PageObjects",
+		"flavor": "GlobalObject",
+		"actions": [
+			{
+				"name": "Open",
+				"description": "Open the login page and verify the form is ready\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\LoginPage\\LoginPage.js(11,10)"
+			},
+			{
+				"name": "DoLogin",
+				"description": "Fill credentials and submit the login form\r\n@param {String} user login user\r\n@param {String} password login password\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "user, password",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\LoginPage\\LoginPage.js(24,10)"
+			},
+			{
+				"name": "IsLoggedIn",
+				"description": "Verify the login succeeded (Logged In Successfully banner is visible)\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\LoginPage\\LoginPage.js(35,10)"
+			}
+		],
+		"isPageObject": true,
+		"extend_rule": "",
+		"description": "LoginPage\r\nPage object for the Test Login page (practicetestautomation.com).\r\nOwns objects: Username, Password, Submit, LoggedInBanner (see Objects.js in this folder).",
+		"src": "%WORKDIR%PageObjects\\LoginPage\\LoginPage.js"
+	}
+}

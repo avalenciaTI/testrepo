@@ -1,0 +1,225 @@
+{
+  "files": [
+    {
+      "fileName": "AI\\screenshot.base64",
+      "fileLastModifiedDate": "9/22/2026 7:14:57 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Common.js",
+      "fileLastModifiedDate": "9/22/2026 8:01:00 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Config.json",
+      "fileLastModifiedDate": "9/22/2026 8:00:16 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Configuration\\Environments\\environment.txt",
+      "fileLastModifiedDate": "9/22/2026 8:01:00 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Configuration\\Environments\\EnvLoader.js",
+      "fileLastModifiedDate": "9/22/2026 8:01:00 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Configuration\\Environments\\QA.json",
+      "fileLastModifiedDate": "9/22/2026 8:05:22 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Data\\Ambientes.xlsx",
+      "fileLastModifiedDate": "9/22/2026 7:45:28 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Data\\Data.xlsx",
+      "fileLastModifiedDate": "9/22/2026 7:45:07 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Data\\DataAPI.xlsx",
+      "fileLastModifiedDate": "9/22/2026 7:46:37 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Data\\DataWeb.xlsx",
+      "fileLastModifiedDate": "9/22/2026 7:46:24 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Framework.sstest",
+      "fileLastModifiedDate": "9/23/2026 3:09:34 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Images\\Checkpoint0001.png",
+      "fileLastModifiedDate": "9/23/2026 2:42:02 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework.jslib",
+      "fileLastModifiedDate": "9/22/2026 8:09:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework.jslib.bak",
+      "fileLastModifiedDate": "9/22/2026 12:30:21 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\Framework.json",
+      "fileLastModifiedDate": "9/23/2026 3:10:24 PM",
+      "fileVersion": 2.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\LibFramework.js",
+      "fileLastModifiedDate": "9/22/2026 8:09:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\LoginPage.metadata",
+      "fileLastModifiedDate": "9/22/2026 8:09:54 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\LoginPage16.png",
+      "fileLastModifiedDate": "9/22/2026 8:09:53 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\LoginPage32.png",
+      "fileLastModifiedDate": "9/22/2026 8:09:53 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\NavBar.metadata",
+      "fileLastModifiedDate": "9/22/2026 8:09:54 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\NavBar16.png",
+      "fileLastModifiedDate": "9/22/2026 8:09:54 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\NavBar32.png",
+      "fileLastModifiedDate": "9/22/2026 8:09:54 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\Parameters.json",
+      "fileLastModifiedDate": "9/23/2026 2:46:24 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\LibFramework\\Spira.json",
+      "fileLastModifiedDate": "9/23/2026 5:17:58 PM",
+      "fileVersion": 2.0
+    },
+    {
+      "fileName": "Lib\\Libuser.jslib",
+      "fileLastModifiedDate": "9/22/2026 7:41:20 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Lib\\Libuser\\Libuser.js",
+      "fileLastModifiedDate": "9/22/2026 7:41:38 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Main.js",
+      "fileLastModifiedDate": "9/22/2026 8:05:30 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\LoginPage\\LoginPage.js",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\LoginPage\\Objects.js",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\LoginPage\\Test.sstest",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\NavBar\\NavBar.js",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\NavBar\\Objects.js",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "PageObjects\\NavBar\\Test.sstest",
+      "fileLastModifiedDate": "9/22/2026 7:59:49 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "Repository.json",
+      "fileLastModifiedDate": "9/23/2026 5:18:00 PM",
+      "fileVersion": 5.0
+    },
+    {
+      "fileName": "TestCases\\API\\Main.js",
+      "fileLastModifiedDate": "9/22/2026 8:07:28 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\API\\Objects.js",
+      "fileLastModifiedDate": "9/22/2026 8:05:22 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\API\\Test.sstest",
+      "fileLastModifiedDate": "9/22/2026 8:09:53 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\API\\User.js",
+      "fileLastModifiedDate": "9/22/2026 8:05:22 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\Main.js",
+      "fileLastModifiedDate": "9/23/2026 2:40:46 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\Main.rvl.xlsx",
+      "fileLastModifiedDate": "9/23/2026 2:42:13 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\Objects.js",
+      "fileLastModifiedDate": "9/23/2026 2:42:06 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\Objects.metadata",
+      "fileLastModifiedDate": "9/23/2026 2:42:06 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\Test.sstest",
+      "fileLastModifiedDate": "9/23/2026 2:42:26 PM",
+      "fileVersion": 1.0
+    },
+    {
+      "fileName": "TestCases\\Web\\User.js",
+      "fileLastModifiedDate": "9/22/2026 4:52:29 PM",
+      "fileVersion": 1.0
+    }
+  ],
+  "projectId": 24
+}

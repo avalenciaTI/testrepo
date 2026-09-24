@@ -1,0 +1,25 @@
+{
+	"projectId": 24,
+	"testCasesFolderId": 6,
+	"testSetsFolderId": 3,
+	"repositoryFolderId": 40,
+	"repositoryJsonDocumentId": 58,
+	"testcases": [
+		{
+			"id": "RXY9NUZE",
+			"spiraId": 293,
+			"properties": []
+		},
+		{
+			"id": "6PEIBRTK",
+			"spiraId": 292,
+			"properties": []
+		}
+	],
+	"testsets": [
+		{
+			"id": "6a05feb7",
+			"spiraId": 9
+		}
+	]
+}

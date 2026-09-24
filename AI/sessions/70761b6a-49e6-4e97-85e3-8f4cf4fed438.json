@@ -1,0 +1,44 @@
+{
+  "flow_config": {
+    "name": "AI Chat",
+    "description": "Generic chat with an AI model",
+    "sender": {
+      "type": "user",
+      "config": {
+        "name": "rapise",
+        "system_message": "You are a helpful assistant.",
+        "llm_config": false
+      }
+    },
+    "receiver": {
+      "type": "assistant",
+      "config": {
+        "name": "ai_chat",
+        "description": "Generic chat with an AI model",
+        "llm_config": {
+          "temperature": 0.1,
+          "max_tokens": 0,
+          "config_list": [
+            {
+              "model": "default",
+              "description": "Default model configured in Options."
+            }
+          ]
+        },
+        "system_message": "You are a helpful AI assistant."
+      },
+      "id": "6b05e98f-4ed3-46b4-965e-7b1c1aa4f9e1",
+      "timestamp": "2024-06-13T13:12:18.627Z",
+      "local": false,
+      "path": "C:\\ProgramData\\Inflectra\\Rapise\\AI\\agents\\6b05e98f-4ed3-46b4-965e-7b1c1aa4f9e1.json"
+    },
+    "type": "twoagents",
+    "id": "4bb1833d-d454-4caf-9565-78d62651d385",
+    "timestamp": "2024-06-13T13:12:36.790Z",
+    "local": false,
+    "path": "C:\\ProgramData\\Inflectra\\Rapise\\AI\\workflows\\4bb1833d-d454-4caf-9565-78d62651d385.json"
+  },
+  "name": "AI Chat",
+  "id": "70761b6a-49e6-4e97-85e3-8f4cf4fed438",
+  "timestamp": "2026-09-22T18:30:28.044Z"
+}

@@ -1,0 +1,10 @@
+{
+	"environment": "QA",
+	"baseUrl": "https://practicetestautomation.com",
+	"loginUrl": "https://practicetestautomation.com/practice-test-login/",
+	"credentials": {
+		"validUser": "student",
+		"validPassword": "Password123"
+	},
+	"apiBaseUrl": "https://jsonplaceholder.typicode.com"
+}

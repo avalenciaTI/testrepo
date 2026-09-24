@@ -1,0 +1,48 @@
+{
+	"NavBar": {
+		"window_name": "PageObjects",
+		"flavor": "GlobalObject",
+		"actions": [
+			{
+				"name": "ClickHome",
+				"description": "Click Home and verify the menu is still available on the new page\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\NavBar\\NavBar.js(11,10)"
+			},
+			{
+				"name": "ClickPractice",
+				"description": "Click Practice and verify navigation completed\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\NavBar\\NavBar.js(22,10)"
+			},
+			{
+				"name": "ClickCourses",
+				"description": "Click Courses and verify navigation completed\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\NavBar\\NavBar.js(33,10)"
+			},
+			{
+				"name": "ClickAIWorkshop",
+				"description": "Click AI Workshop and verify navigation completed\r\n",
+				"type": "",
+				"returns": "",
+				"signature": "",
+				"paramInfo": {},
+				"src": "%WORKDIR%PageObjects\\NavBar\\NavBar.js(44,10)"
+			}
+		],
+		"isPageObject": true,
+		"extend_rule": "",
+		"description": "NavBar\r\nTop navigation menu shared by every page of the site.\r\nLocators are text/href based (not positional //li[N]) so they survive menu reordering.",
+		"src": "%WORKDIR%PageObjects\\NavBar\\NavBar.js"
+	}
+}
